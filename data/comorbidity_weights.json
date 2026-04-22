@@ -1,0 +1,22 @@
+{
+  "age_multipliers": {
+    "0_40": 1.0,
+    "41_60": 1.12,
+    "61_75": 1.25,
+    "75_plus": 1.38
+  },
+  "comorbidity_multipliers": {
+    "diabetes": 0.12,
+    "hypertension": 0.08,
+    "cardiac_history": 0.22,
+    "ckd": 0.2,
+    "obesity": 0.1,
+    "copd": 0.15,
+    "cancer": 0.18
+  },
+  "severity_multipliers": {
+    "mild": 1.0,
+    "moderate": 1.15,
+    "severe": 1.35
+  }
+}

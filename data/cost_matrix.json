@@ -1,0 +1,4562 @@
+{
+  "Angioplasty": {
+    "metro": {
+      "procedure": [
+        150000,
+        250000
+      ],
+      "doctor_fee": [
+        20000,
+        40000
+      ],
+      "stay_per_day": [
+        8000,
+        15000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        15000,
+        25000
+      ],
+      "diagnostics_post": [
+        8000,
+        12000
+      ],
+      "medicines": [
+        20000,
+        35000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier2": {
+      "procedure": [
+        90000,
+        160000
+      ],
+      "doctor_fee": [
+        12000,
+        25000
+      ],
+      "stay_per_day": [
+        4000,
+        8000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        8000,
+        15000
+      ],
+      "diagnostics_post": [
+        5000,
+        8000
+      ],
+      "medicines": [
+        12000,
+        22000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier3": {
+      "procedure": [
+        60000,
+        110000
+      ],
+      "doctor_fee": [
+        8000,
+        15000
+      ],
+      "stay_per_day": [
+        2500,
+        5000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        5000,
+        10000
+      ],
+      "diagnostics_post": [
+        3000,
+        6000
+      ],
+      "medicines": [
+        8000,
+        15000
+      ],
+      "contingency_pct": 0.15
+    }
+  },
+  "Knee Replacement": {
+    "metro": {
+      "procedure": [
+        200000,
+        380000
+      ],
+      "doctor_fee": [
+        30000,
+        60000
+      ],
+      "stay_per_day": [
+        8000,
+        15000
+      ],
+      "avg_stay_days": [
+        5,
+        7
+      ],
+      "diagnostics_pre": [
+        12000,
+        20000
+      ],
+      "diagnostics_post": [
+        10000,
+        15000
+      ],
+      "medicines": [
+        25000,
+        45000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier2": {
+      "procedure": [
+        130000,
+        240000
+      ],
+      "doctor_fee": [
+        20000,
+        40000
+      ],
+      "stay_per_day": [
+        5000,
+        10000
+      ],
+      "avg_stay_days": [
+        5,
+        7
+      ],
+      "diagnostics_pre": [
+        8000,
+        14000
+      ],
+      "diagnostics_post": [
+        6000,
+        10000
+      ],
+      "medicines": [
+        15000,
+        28000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier3": {
+      "procedure": [
+        80000,
+        150000
+      ],
+      "doctor_fee": [
+        12000,
+        25000
+      ],
+      "stay_per_day": [
+        3000,
+        6000
+      ],
+      "avg_stay_days": [
+        5,
+        7
+      ],
+      "diagnostics_pre": [
+        5000,
+        10000
+      ],
+      "diagnostics_post": [
+        4000,
+        7000
+      ],
+      "medicines": [
+        10000,
+        18000
+      ],
+      "contingency_pct": 0.15
+    }
+  },
+  "Chemotherapy": {
+    "metro": {
+      "procedure": [
+        90000,
+        250000
+      ],
+      "doctor_fee": [
+        15000,
+        35000
+      ],
+      "stay_per_day": [
+        5000,
+        12000
+      ],
+      "avg_stay_days": [
+        1,
+        3
+      ],
+      "diagnostics_pre": [
+        10000,
+        22000
+      ],
+      "diagnostics_post": [
+        7000,
+        14000
+      ],
+      "medicines": [
+        30000,
+        90000
+      ],
+      "contingency_pct": 0.22
+    },
+    "tier2": {
+      "procedure": [
+        60000,
+        160000
+      ],
+      "doctor_fee": [
+        10000,
+        22000
+      ],
+      "stay_per_day": [
+        3000,
+        7000
+      ],
+      "avg_stay_days": [
+        1,
+        3
+      ],
+      "diagnostics_pre": [
+        7000,
+        15000
+      ],
+      "diagnostics_post": [
+        5000,
+        9000
+      ],
+      "medicines": [
+        20000,
+        50000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier3": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        7000,
+        15000
+      ],
+      "stay_per_day": [
+        2000,
+        4500
+      ],
+      "avg_stay_days": [
+        1,
+        3
+      ],
+      "diagnostics_pre": [
+        5000,
+        10000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        12000,
+        30000
+      ],
+      "contingency_pct": 0.16
+    }
+  },
+  "Colonoscopy": {
+    "metro": {
+      "procedure": [
+        25000,
+        60000
+      ],
+      "doctor_fee": [
+        5000,
+        15000
+      ],
+      "stay_per_day": [
+        3000,
+        8000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        4000,
+        10000
+      ],
+      "diagnostics_post": [
+        2000,
+        6000
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier2": {
+      "procedure": [
+        15000,
+        35000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        2000,
+        5000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        2500,
+        6000
+      ],
+      "diagnostics_post": [
+        1500,
+        3500
+      ],
+      "medicines": [
+        2000,
+        4500
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier3": {
+      "procedure": [
+        10000,
+        22000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        1200,
+        3000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1500,
+        4000
+      ],
+      "diagnostics_post": [
+        1000,
+        2500
+      ],
+      "medicines": [
+        1200,
+        3000
+      ],
+      "contingency_pct": 0.1
+    }
+  },
+  "MRI Brain": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Dialysis": {
+    "metro": {
+      "procedure": [
+        4000,
+        9000
+      ],
+      "doctor_fee": [
+        1500,
+        3500
+      ],
+      "stay_per_day": [
+        2500,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        2500
+      ],
+      "medicines": [
+        1500,
+        3500
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier2": {
+      "procedure": [
+        2500,
+        6000
+      ],
+      "doctor_fee": [
+        1000,
+        2200
+      ],
+      "stay_per_day": [
+        1500,
+        3500
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1200,
+        3000
+      ],
+      "diagnostics_post": [
+        700,
+        1800
+      ],
+      "medicines": [
+        900,
+        2200
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier3": {
+      "procedure": [
+        1800,
+        4500
+      ],
+      "doctor_fee": [
+        700,
+        1500
+      ],
+      "stay_per_day": [
+        1000,
+        2500
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        800,
+        2000
+      ],
+      "diagnostics_post": [
+        500,
+        1200
+      ],
+      "medicines": [
+        600,
+        1500
+      ],
+      "contingency_pct": 0.1
+    }
+  },
+  "Hip Replacement": {
+    "metro": {
+      "procedure": [
+        220000,
+        400000
+      ],
+      "doctor_fee": [
+        35000,
+        65000
+      ],
+      "stay_per_day": [
+        9000,
+        16000
+      ],
+      "avg_stay_days": [
+        5,
+        8
+      ],
+      "diagnostics_pre": [
+        12000,
+        22000
+      ],
+      "diagnostics_post": [
+        10000,
+        16000
+      ],
+      "medicines": [
+        26000,
+        47000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier2": {
+      "procedure": [
+        140000,
+        260000
+      ],
+      "doctor_fee": [
+        22000,
+        42000
+      ],
+      "stay_per_day": [
+        5500,
+        10000
+      ],
+      "avg_stay_days": [
+        5,
+        8
+      ],
+      "diagnostics_pre": [
+        8000,
+        15000
+      ],
+      "diagnostics_post": [
+        6500,
+        11000
+      ],
+      "medicines": [
+        16000,
+        29000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier3": {
+      "procedure": [
+        90000,
+        170000
+      ],
+      "doctor_fee": [
+        13000,
+        26000
+      ],
+      "stay_per_day": [
+        3200,
+        6500
+      ],
+      "avg_stay_days": [
+        5,
+        8
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        4200,
+        8000
+      ],
+      "medicines": [
+        11000,
+        19000
+      ],
+      "contingency_pct": 0.15
+    }
+  },
+  "Endoscopy": {
+    "metro": {
+      "procedure": [
+        18000,
+        45000
+      ],
+      "doctor_fee": [
+        4000,
+        12000
+      ],
+      "stay_per_day": [
+        2500,
+        7000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        3000,
+        8000
+      ],
+      "diagnostics_post": [
+        1500,
+        4500
+      ],
+      "medicines": [
+        2500,
+        6000
+      ],
+      "contingency_pct": 0.14
+    },
+    "tier2": {
+      "procedure": [
+        12000,
+        28000
+      ],
+      "doctor_fee": [
+        2500,
+        7000
+      ],
+      "stay_per_day": [
+        1600,
+        4200
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1800,
+        4500
+      ],
+      "diagnostics_post": [
+        1000,
+        2500
+      ],
+      "medicines": [
+        1500,
+        3500
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier3": {
+      "procedure": [
+        8000,
+        18000
+      ],
+      "doctor_fee": [
+        1500,
+        4500
+      ],
+      "stay_per_day": [
+        1000,
+        2800
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1200,
+        3000
+      ],
+      "diagnostics_post": [
+        700,
+        1800
+      ],
+      "medicines": [
+        1000,
+        2400
+      ],
+      "contingency_pct": 0.1
+    }
+  },
+  "Bronchoscopy": {
+    "metro": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        7000,
+        18000
+      ],
+      "stay_per_day": [
+        4000,
+        9000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        4000,
+        9000
+      ],
+      "diagnostics_post": [
+        2000,
+        5500
+      ],
+      "medicines": [
+        4000,
+        9000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        16000,
+        40000
+      ],
+      "doctor_fee": [
+        4500,
+        11000
+      ],
+      "stay_per_day": [
+        2500,
+        5500
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2600,
+        5500
+      ],
+      "diagnostics_post": [
+        1200,
+        3200
+      ],
+      "medicines": [
+        2500,
+        5000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        10000,
+        26000
+      ],
+      "doctor_fee": [
+        2800,
+        7000
+      ],
+      "stay_per_day": [
+        1500,
+        3500
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        1700,
+        3600
+      ],
+      "diagnostics_post": [
+        900,
+        2200
+      ],
+      "medicines": [
+        1500,
+        3200
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "Echocardiogram": {
+    "metro": {
+      "procedure": [
+        6000,
+        18000
+      ],
+      "doctor_fee": [
+        2500,
+        7000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        3000
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        4000,
+        12000
+      ],
+      "doctor_fee": [
+        1500,
+        4500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        700,
+        2000
+      ],
+      "diagnostics_post": [
+        300,
+        900
+      ],
+      "medicines": [
+        700,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        2500,
+        8000
+      ],
+      "doctor_fee": [
+        900,
+        2800
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        1200
+      ],
+      "diagnostics_post": [
+        250,
+        700
+      ],
+      "medicines": [
+        500,
+        1000
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Cataract Surgery": {
+    "metro": {
+      "procedure": [
+        35000,
+        90000
+      ],
+      "doctor_fee": [
+        8000,
+        18000
+      ],
+      "stay_per_day": [
+        2500,
+        6500
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        3000,
+        9000
+      ],
+      "diagnostics_post": [
+        2000,
+        6000
+      ],
+      "medicines": [
+        4000,
+        10000
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier2": {
+      "procedure": [
+        22000,
+        55000
+      ],
+      "doctor_fee": [
+        5000,
+        11000
+      ],
+      "stay_per_day": [
+        1500,
+        4000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1800,
+        5000
+      ],
+      "diagnostics_post": [
+        1200,
+        3000
+      ],
+      "medicines": [
+        2500,
+        6000
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier3": {
+      "procedure": [
+        14000,
+        35000
+      ],
+      "doctor_fee": [
+        3000,
+        7000
+      ],
+      "stay_per_day": [
+        1000,
+        2500
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1200,
+        3200
+      ],
+      "diagnostics_post": [
+        800,
+        1800
+      ],
+      "medicines": [
+        1600,
+        3800
+      ],
+      "contingency_pct": 0.1
+    }
+  },
+  "Appendectomy": {
+    "metro": {
+      "procedure": [
+        70000,
+        170000
+      ],
+      "doctor_fee": [
+        15000,
+        35000
+      ],
+      "stay_per_day": [
+        6000,
+        12000
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        7000,
+        15000
+      ],
+      "diagnostics_post": [
+        5000,
+        10000
+      ],
+      "medicines": [
+        10000,
+        22000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier2": {
+      "procedure": [
+        45000,
+        110000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        3500,
+        7000
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        4500,
+        9000
+      ],
+      "diagnostics_post": [
+        3000,
+        6000
+      ],
+      "medicines": [
+        6000,
+        13000
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier3": {
+      "procedure": [
+        28000,
+        70000
+      ],
+      "doctor_fee": [
+        6000,
+        14000
+      ],
+      "stay_per_day": [
+        2200,
+        4500
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        2800,
+        6000
+      ],
+      "diagnostics_post": [
+        2000,
+        4000
+      ],
+      "medicines": [
+        4000,
+        9000
+      ],
+      "contingency_pct": 0.13
+    }
+  },
+  "Gallbladder Removal": {
+    "metro": {
+      "procedure": [
+        90000,
+        220000
+      ],
+      "doctor_fee": [
+        18000,
+        42000
+      ],
+      "stay_per_day": [
+        6500,
+        13000
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        8000,
+        18000
+      ],
+      "diagnostics_post": [
+        5500,
+        12000
+      ],
+      "medicines": [
+        12000,
+        25000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier2": {
+      "procedure": [
+        55000,
+        140000
+      ],
+      "doctor_fee": [
+        11000,
+        26000
+      ],
+      "stay_per_day": [
+        4000,
+        7800
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3500,
+        7000
+      ],
+      "medicines": [
+        7500,
+        15000
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier3": {
+      "procedure": [
+        35000,
+        90000
+      ],
+      "doctor_fee": [
+        7000,
+        17000
+      ],
+      "stay_per_day": [
+        2500,
+        5000
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        2200,
+        4500
+      ],
+      "medicines": [
+        5000,
+        9500
+      ],
+      "contingency_pct": 0.13
+    }
+  },
+  "Psychiatric Evaluation": {
+    "metro": {
+      "procedure": [
+        4000,
+        15000
+      ],
+      "doctor_fee": [
+        3000,
+        12000
+      ],
+      "stay_per_day": [
+        0,
+        6000
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        1000,
+        4000
+      ],
+      "diagnostics_post": [
+        500,
+        2500
+      ],
+      "medicines": [
+        2000,
+        8000
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier2": {
+      "procedure": [
+        2500,
+        9000
+      ],
+      "doctor_fee": [
+        1800,
+        7000
+      ],
+      "stay_per_day": [
+        0,
+        3500
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        700,
+        2200
+      ],
+      "diagnostics_post": [
+        350,
+        1300
+      ],
+      "medicines": [
+        1200,
+        4500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier3": {
+      "procedure": [
+        1500,
+        6000
+      ],
+      "doctor_fee": [
+        1200,
+        4500
+      ],
+      "stay_per_day": [
+        0,
+        2200
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        500,
+        1400
+      ],
+      "diagnostics_post": [
+        250,
+        800
+      ],
+      "medicines": [
+        800,
+        2600
+      ],
+      "contingency_pct": 0.08
+    }
+  },
+  "Hysterectomy": {
+    "metro": {
+      "procedure": [
+        120000,
+        280000
+      ],
+      "doctor_fee": [
+        22000,
+        50000
+      ],
+      "stay_per_day": [
+        7000,
+        14000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        9000,
+        18000
+      ],
+      "diagnostics_post": [
+        7000,
+        13000
+      ],
+      "medicines": [
+        16000,
+        32000
+      ],
+      "contingency_pct": 0.19
+    },
+    "tier2": {
+      "procedure": [
+        75000,
+        180000
+      ],
+      "doctor_fee": [
+        14000,
+        32000
+      ],
+      "stay_per_day": [
+        4200,
+        8000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        5500,
+        11000
+      ],
+      "diagnostics_post": [
+        4200,
+        8200
+      ],
+      "medicines": [
+        9000,
+        18000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier3": {
+      "procedure": [
+        50000,
+        120000
+      ],
+      "doctor_fee": [
+        9000,
+        20000
+      ],
+      "stay_per_day": [
+        2500,
+        5000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        3500,
+        7000
+      ],
+      "diagnostics_post": [
+        2700,
+        5000
+      ],
+      "medicines": [
+        6000,
+        12000
+      ],
+      "contingency_pct": 0.14
+    }
+  },
+  "C-Section": {
+    "metro": {
+      "procedure": [
+        90000,
+        220000
+      ],
+      "doctor_fee": [
+        18000,
+        42000
+      ],
+      "stay_per_day": [
+        6500,
+        13000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        8000,
+        16000
+      ],
+      "diagnostics_post": [
+        5000,
+        10000
+      ],
+      "medicines": [
+        10000,
+        22000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier2": {
+      "procedure": [
+        55000,
+        140000
+      ],
+      "doctor_fee": [
+        11000,
+        26000
+      ],
+      "stay_per_day": [
+        3800,
+        7500
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        4800,
+        9000
+      ],
+      "diagnostics_post": [
+        3000,
+        6000
+      ],
+      "medicines": [
+        6500,
+        14000
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier3": {
+      "procedure": [
+        35000,
+        90000
+      ],
+      "doctor_fee": [
+        7000,
+        16000
+      ],
+      "stay_per_day": [
+        2300,
+        4500
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        3000,
+        6000
+      ],
+      "diagnostics_post": [
+        2000,
+        3800
+      ],
+      "medicines": [
+        4200,
+        9000
+      ],
+      "contingency_pct": 0.13
+    }
+  },
+  "LASIK": {
+    "metro": {
+      "procedure": [
+        45000,
+        120000
+      ],
+      "doctor_fee": [
+        10000,
+        25000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        4000,
+        9000
+      ],
+      "diagnostics_post": [
+        2000,
+        5000
+      ],
+      "medicines": [
+        3000,
+        8000
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier2": {
+      "procedure": [
+        30000,
+        75000
+      ],
+      "doctor_fee": [
+        6500,
+        15000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2500,
+        5000
+      ],
+      "diagnostics_post": [
+        1200,
+        3000
+      ],
+      "medicines": [
+        1800,
+        4500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier3": {
+      "procedure": [
+        20000,
+        50000
+      ],
+      "doctor_fee": [
+        4000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1200,
+        3000
+      ],
+      "contingency_pct": 0.08
+    }
+  },
+  "Spinal Surgery": {
+    "metro": {
+      "procedure": [
+        250000,
+        550000
+      ],
+      "doctor_fee": [
+        40000,
+        90000
+      ],
+      "stay_per_day": [
+        10000,
+        18000
+      ],
+      "avg_stay_days": [
+        5,
+        9
+      ],
+      "diagnostics_pre": [
+        15000,
+        30000
+      ],
+      "diagnostics_post": [
+        12000,
+        22000
+      ],
+      "medicines": [
+        30000,
+        65000
+      ],
+      "contingency_pct": 0.22
+    },
+    "tier2": {
+      "procedure": [
+        160000,
+        340000
+      ],
+      "doctor_fee": [
+        25000,
+        55000
+      ],
+      "stay_per_day": [
+        6000,
+        10500
+      ],
+      "avg_stay_days": [
+        5,
+        9
+      ],
+      "diagnostics_pre": [
+        9000,
+        17000
+      ],
+      "diagnostics_post": [
+        7000,
+        13000
+      ],
+      "medicines": [
+        18000,
+        36000
+      ],
+      "contingency_pct": 0.19
+    },
+    "tier3": {
+      "procedure": [
+        100000,
+        220000
+      ],
+      "doctor_fee": [
+        15000,
+        35000
+      ],
+      "stay_per_day": [
+        3800,
+        7000
+      ],
+      "avg_stay_days": [
+        5,
+        9
+      ],
+      "diagnostics_pre": [
+        5500,
+        11000
+      ],
+      "diagnostics_post": [
+        4300,
+        8500
+      ],
+      "medicines": [
+        12000,
+        22000
+      ],
+      "contingency_pct": 0.16
+    }
+  },
+  "Liver Biopsy": {
+    "metro": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        4500,
+        10000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        5000,
+        12000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2800,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        1800,
+        4200
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        16000,
+        42000
+      ],
+      "doctor_fee": [
+        3500,
+        8500
+      ],
+      "stay_per_day": [
+        1800,
+        3800
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2000,
+        4500
+      ],
+      "diagnostics_post": [
+        1200,
+        2600
+      ],
+      "medicines": [
+        1900,
+        4500
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "Kidney Stone Removal": {
+    "metro": {
+      "procedure": [
+        70000,
+        180000
+      ],
+      "doctor_fee": [
+        14000,
+        32000
+      ],
+      "stay_per_day": [
+        6000,
+        12000
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        7000,
+        15000
+      ],
+      "diagnostics_post": [
+        5000,
+        10000
+      ],
+      "medicines": [
+        9000,
+        20000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier2": {
+      "procedure": [
+        45000,
+        110000
+      ],
+      "doctor_fee": [
+        9000,
+        20000
+      ],
+      "stay_per_day": [
+        3500,
+        6800
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        4200,
+        8500
+      ],
+      "diagnostics_post": [
+        2800,
+        5500
+      ],
+      "medicines": [
+        5500,
+        12000
+      ],
+      "contingency_pct": 0.15
+    },
+    "tier3": {
+      "procedure": [
+        28000,
+        70000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2200,
+        4300
+      ],
+      "avg_stay_days": [
+        2,
+        4
+      ],
+      "diagnostics_pre": [
+        2800,
+        6000
+      ],
+      "diagnostics_post": [
+        1800,
+        3800
+      ],
+      "medicines": [
+        3500,
+        7800
+      ],
+      "contingency_pct": 0.13
+    }
+  },
+  "Consultation": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Stress Test": {
+    "metro": {
+      "procedure": [
+        6000,
+        18000
+      ],
+      "doctor_fee": [
+        2500,
+        7000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        3000
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        4000,
+        12000
+      ],
+      "doctor_fee": [
+        1500,
+        4500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        700,
+        2000
+      ],
+      "diagnostics_post": [
+        300,
+        900
+      ],
+      "medicines": [
+        700,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        2500,
+        8000
+      ],
+      "doctor_fee": [
+        900,
+        2800
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        1200
+      ],
+      "diagnostics_post": [
+        250,
+        700
+      ],
+      "medicines": [
+        500,
+        1000
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Angiography": {
+    "metro": {
+      "procedure": [
+        150000,
+        250000
+      ],
+      "doctor_fee": [
+        20000,
+        40000
+      ],
+      "stay_per_day": [
+        8000,
+        15000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        15000,
+        25000
+      ],
+      "diagnostics_post": [
+        8000,
+        12000
+      ],
+      "medicines": [
+        20000,
+        35000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier2": {
+      "procedure": [
+        90000,
+        160000
+      ],
+      "doctor_fee": [
+        12000,
+        25000
+      ],
+      "stay_per_day": [
+        4000,
+        8000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        8000,
+        15000
+      ],
+      "diagnostics_post": [
+        5000,
+        8000
+      ],
+      "medicines": [
+        12000,
+        22000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier3": {
+      "procedure": [
+        60000,
+        110000
+      ],
+      "doctor_fee": [
+        8000,
+        15000
+      ],
+      "stay_per_day": [
+        2500,
+        5000
+      ],
+      "avg_stay_days": [
+        3,
+        5
+      ],
+      "diagnostics_pre": [
+        5000,
+        10000
+      ],
+      "diagnostics_post": [
+        3000,
+        6000
+      ],
+      "medicines": [
+        8000,
+        15000
+      ],
+      "contingency_pct": 0.15
+    }
+  },
+  "Arthroscopy": {
+    "metro": {
+      "procedure": [
+        200000,
+        380000
+      ],
+      "doctor_fee": [
+        30000,
+        60000
+      ],
+      "stay_per_day": [
+        8000,
+        15000
+      ],
+      "avg_stay_days": [
+        5,
+        7
+      ],
+      "diagnostics_pre": [
+        12000,
+        20000
+      ],
+      "diagnostics_post": [
+        10000,
+        15000
+      ],
+      "medicines": [
+        25000,
+        45000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier2": {
+      "procedure": [
+        130000,
+        240000
+      ],
+      "doctor_fee": [
+        20000,
+        40000
+      ],
+      "stay_per_day": [
+        5000,
+        10000
+      ],
+      "avg_stay_days": [
+        5,
+        7
+      ],
+      "diagnostics_pre": [
+        8000,
+        14000
+      ],
+      "diagnostics_post": [
+        6000,
+        10000
+      ],
+      "medicines": [
+        15000,
+        28000
+      ],
+      "contingency_pct": 0.18
+    },
+    "tier3": {
+      "procedure": [
+        80000,
+        150000
+      ],
+      "doctor_fee": [
+        12000,
+        25000
+      ],
+      "stay_per_day": [
+        3000,
+        6000
+      ],
+      "avg_stay_days": [
+        5,
+        7
+      ],
+      "diagnostics_pre": [
+        5000,
+        10000
+      ],
+      "diagnostics_post": [
+        4000,
+        7000
+      ],
+      "medicines": [
+        10000,
+        18000
+      ],
+      "contingency_pct": 0.15
+    }
+  },
+  "Physiotherapy": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "ERCP": {
+    "metro": {
+      "procedure": [
+        18000,
+        45000
+      ],
+      "doctor_fee": [
+        4000,
+        12000
+      ],
+      "stay_per_day": [
+        2500,
+        7000
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        3000,
+        8000
+      ],
+      "diagnostics_post": [
+        1500,
+        4500
+      ],
+      "medicines": [
+        2500,
+        6000
+      ],
+      "contingency_pct": 0.14
+    },
+    "tier2": {
+      "procedure": [
+        12000,
+        28000
+      ],
+      "doctor_fee": [
+        2500,
+        7000
+      ],
+      "stay_per_day": [
+        1600,
+        4200
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1800,
+        4500
+      ],
+      "diagnostics_post": [
+        1000,
+        2500
+      ],
+      "medicines": [
+        1500,
+        3500
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier3": {
+      "procedure": [
+        8000,
+        18000
+      ],
+      "doctor_fee": [
+        1500,
+        4500
+      ],
+      "stay_per_day": [
+        1000,
+        2800
+      ],
+      "avg_stay_days": [
+        1,
+        1
+      ],
+      "diagnostics_pre": [
+        1200,
+        3000
+      ],
+      "diagnostics_post": [
+        700,
+        1800
+      ],
+      "medicines": [
+        1000,
+        2400
+      ],
+      "contingency_pct": 0.1
+    }
+  },
+  "EEG": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Nerve Conduction Study": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Lumbar Puncture": {
+    "metro": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        4500,
+        10000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        5000,
+        12000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2800,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        1800,
+        4200
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        16000,
+        42000
+      ],
+      "doctor_fee": [
+        3500,
+        8500
+      ],
+      "stay_per_day": [
+        1800,
+        3800
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2000,
+        4500
+      ],
+      "diagnostics_post": [
+        1200,
+        2600
+      ],
+      "medicines": [
+        1900,
+        4500
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "Radiation Therapy": {
+    "metro": {
+      "procedure": [
+        90000,
+        250000
+      ],
+      "doctor_fee": [
+        15000,
+        35000
+      ],
+      "stay_per_day": [
+        5000,
+        12000
+      ],
+      "avg_stay_days": [
+        1,
+        3
+      ],
+      "diagnostics_pre": [
+        10000,
+        22000
+      ],
+      "diagnostics_post": [
+        7000,
+        14000
+      ],
+      "medicines": [
+        30000,
+        90000
+      ],
+      "contingency_pct": 0.22
+    },
+    "tier2": {
+      "procedure": [
+        60000,
+        160000
+      ],
+      "doctor_fee": [
+        10000,
+        22000
+      ],
+      "stay_per_day": [
+        3000,
+        7000
+      ],
+      "avg_stay_days": [
+        1,
+        3
+      ],
+      "diagnostics_pre": [
+        7000,
+        15000
+      ],
+      "diagnostics_post": [
+        5000,
+        9000
+      ],
+      "medicines": [
+        20000,
+        50000
+      ],
+      "contingency_pct": 0.2
+    },
+    "tier3": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        7000,
+        15000
+      ],
+      "stay_per_day": [
+        2000,
+        4500
+      ],
+      "avg_stay_days": [
+        1,
+        3
+      ],
+      "diagnostics_pre": [
+        5000,
+        10000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        12000,
+        30000
+      ],
+      "contingency_pct": 0.16
+    }
+  },
+  "Biopsy": {
+    "metro": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        4500,
+        10000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        5000,
+        12000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2800,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        1800,
+        4200
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        16000,
+        42000
+      ],
+      "doctor_fee": [
+        3500,
+        8500
+      ],
+      "stay_per_day": [
+        1800,
+        3800
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2000,
+        4500
+      ],
+      "diagnostics_post": [
+        1200,
+        2600
+      ],
+      "medicines": [
+        1900,
+        4500
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "PET Scan": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Pulmonary Function Test": {
+    "metro": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        7000,
+        18000
+      ],
+      "stay_per_day": [
+        4000,
+        9000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        4000,
+        9000
+      ],
+      "diagnostics_post": [
+        2000,
+        5500
+      ],
+      "medicines": [
+        4000,
+        9000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        16000,
+        40000
+      ],
+      "doctor_fee": [
+        4500,
+        11000
+      ],
+      "stay_per_day": [
+        2500,
+        5500
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2600,
+        5500
+      ],
+      "diagnostics_post": [
+        1200,
+        3200
+      ],
+      "medicines": [
+        2500,
+        5000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        10000,
+        26000
+      ],
+      "doctor_fee": [
+        2800,
+        7000
+      ],
+      "stay_per_day": [
+        1500,
+        3500
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        1700,
+        3600
+      ],
+      "diagnostics_post": [
+        900,
+        2200
+      ],
+      "medicines": [
+        1500,
+        3200
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "CT Chest": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Sleep Study": {
+    "metro": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        7000,
+        18000
+      ],
+      "stay_per_day": [
+        4000,
+        9000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        4000,
+        9000
+      ],
+      "diagnostics_post": [
+        2000,
+        5500
+      ],
+      "medicines": [
+        4000,
+        9000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        16000,
+        40000
+      ],
+      "doctor_fee": [
+        4500,
+        11000
+      ],
+      "stay_per_day": [
+        2500,
+        5500
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2600,
+        5500
+      ],
+      "diagnostics_post": [
+        1200,
+        3200
+      ],
+      "medicines": [
+        2500,
+        5000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        10000,
+        26000
+      ],
+      "doctor_fee": [
+        2800,
+        7000
+      ],
+      "stay_per_day": [
+        1500,
+        3500
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        1700,
+        3600
+      ],
+      "diagnostics_post": [
+        900,
+        2200
+      ],
+      "medicines": [
+        1500,
+        3200
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "Kidney Biopsy": {
+    "metro": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        4500,
+        10000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        5000,
+        12000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2800,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        1800,
+        4200
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        16000,
+        42000
+      ],
+      "doctor_fee": [
+        3500,
+        8500
+      ],
+      "stay_per_day": [
+        1800,
+        3800
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2000,
+        4500
+      ],
+      "diagnostics_post": [
+        1200,
+        2600
+      ],
+      "medicines": [
+        1900,
+        4500
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "Renal Ultrasound": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Transplant Eval": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Skin Biopsy": {
+    "metro": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        4500,
+        10000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        5000,
+        12000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2800,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        1800,
+        4200
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        16000,
+        42000
+      ],
+      "doctor_fee": [
+        3500,
+        8500
+      ],
+      "stay_per_day": [
+        1800,
+        3800
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2000,
+        4500
+      ],
+      "diagnostics_post": [
+        1200,
+        2600
+      ],
+      "medicines": [
+        1900,
+        4500
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "Patch Testing": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Laser Treatment": {
+    "metro": {
+      "procedure": [
+        45000,
+        120000
+      ],
+      "doctor_fee": [
+        10000,
+        25000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        4000,
+        9000
+      ],
+      "diagnostics_post": [
+        2000,
+        5000
+      ],
+      "medicines": [
+        3000,
+        8000
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier2": {
+      "procedure": [
+        30000,
+        75000
+      ],
+      "doctor_fee": [
+        6500,
+        15000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2500,
+        5000
+      ],
+      "diagnostics_post": [
+        1200,
+        3000
+      ],
+      "medicines": [
+        1800,
+        4500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier3": {
+      "procedure": [
+        20000,
+        50000
+      ],
+      "doctor_fee": [
+        4000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1200,
+        3000
+      ],
+      "contingency_pct": 0.08
+    }
+  },
+  "Mohs Surgery": {
+    "metro": {
+      "procedure": [
+        40000,
+        100000
+      ],
+      "doctor_fee": [
+        9000,
+        22000
+      ],
+      "stay_per_day": [
+        4500,
+        10000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        5000,
+        11000
+      ],
+      "diagnostics_post": [
+        3000,
+        7000
+      ],
+      "medicines": [
+        5000,
+        12000
+      ],
+      "contingency_pct": 0.16
+    },
+    "tier2": {
+      "procedure": [
+        25000,
+        65000
+      ],
+      "doctor_fee": [
+        5500,
+        13000
+      ],
+      "stay_per_day": [
+        2800,
+        6000
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        3200,
+        7000
+      ],
+      "diagnostics_post": [
+        1800,
+        4200
+      ],
+      "medicines": [
+        3000,
+        7000
+      ],
+      "contingency_pct": 0.13
+    },
+    "tier3": {
+      "procedure": [
+        16000,
+        42000
+      ],
+      "doctor_fee": [
+        3500,
+        8500
+      ],
+      "stay_per_day": [
+        1800,
+        3800
+      ],
+      "avg_stay_days": [
+        1,
+        2
+      ],
+      "diagnostics_pre": [
+        2000,
+        4500
+      ],
+      "diagnostics_post": [
+        1200,
+        2600
+      ],
+      "medicines": [
+        1900,
+        4500
+      ],
+      "contingency_pct": 0.11
+    }
+  },
+  "ECT": {
+    "metro": {
+      "procedure": [
+        4000,
+        15000
+      ],
+      "doctor_fee": [
+        3000,
+        12000
+      ],
+      "stay_per_day": [
+        0,
+        6000
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        1000,
+        4000
+      ],
+      "diagnostics_post": [
+        500,
+        2500
+      ],
+      "medicines": [
+        2000,
+        8000
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier2": {
+      "procedure": [
+        2500,
+        9000
+      ],
+      "doctor_fee": [
+        1800,
+        7000
+      ],
+      "stay_per_day": [
+        0,
+        3500
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        700,
+        2200
+      ],
+      "diagnostics_post": [
+        350,
+        1300
+      ],
+      "medicines": [
+        1200,
+        4500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier3": {
+      "procedure": [
+        1500,
+        6000
+      ],
+      "doctor_fee": [
+        1200,
+        4500
+      ],
+      "stay_per_day": [
+        0,
+        2200
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        500,
+        1400
+      ],
+      "diagnostics_post": [
+        250,
+        800
+      ],
+      "medicines": [
+        800,
+        2600
+      ],
+      "contingency_pct": 0.08
+    }
+  },
+  "TMS Therapy": {
+    "metro": {
+      "procedure": [
+        4000,
+        15000
+      ],
+      "doctor_fee": [
+        3000,
+        12000
+      ],
+      "stay_per_day": [
+        0,
+        6000
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        1000,
+        4000
+      ],
+      "diagnostics_post": [
+        500,
+        2500
+      ],
+      "medicines": [
+        2000,
+        8000
+      ],
+      "contingency_pct": 0.12
+    },
+    "tier2": {
+      "procedure": [
+        2500,
+        9000
+      ],
+      "doctor_fee": [
+        1800,
+        7000
+      ],
+      "stay_per_day": [
+        0,
+        3500
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        700,
+        2200
+      ],
+      "diagnostics_post": [
+        350,
+        1300
+      ],
+      "medicines": [
+        1200,
+        4500
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier3": {
+      "procedure": [
+        1500,
+        6000
+      ],
+      "doctor_fee": [
+        1200,
+        4500
+      ],
+      "stay_per_day": [
+        0,
+        2200
+      ],
+      "avg_stay_days": [
+        0,
+        2
+      ],
+      "diagnostics_pre": [
+        500,
+        1400
+      ],
+      "diagnostics_post": [
+        250,
+        800
+      ],
+      "medicines": [
+        800,
+        2600
+      ],
+      "contingency_pct": 0.08
+    }
+  },
+  "Medication Review": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Blood Panel": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  },
+  "Chest X-Ray": {
+    "metro": {
+      "procedure": [
+        12000,
+        30000
+      ],
+      "doctor_fee": [
+        3000,
+        9000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        2000,
+        5000
+      ],
+      "diagnostics_post": [
+        1000,
+        3000
+      ],
+      "medicines": [
+        1500,
+        4000
+      ],
+      "contingency_pct": 0.1
+    },
+    "tier2": {
+      "procedure": [
+        8000,
+        20000
+      ],
+      "doctor_fee": [
+        2000,
+        6000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1500,
+        3500
+      ],
+      "diagnostics_post": [
+        800,
+        2200
+      ],
+      "medicines": [
+        1000,
+        2500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier3": {
+      "procedure": [
+        5000,
+        14000
+      ],
+      "doctor_fee": [
+        1200,
+        3500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        1000,
+        2500
+      ],
+      "diagnostics_post": [
+        500,
+        1500
+      ],
+      "medicines": [
+        700,
+        1800
+      ],
+      "contingency_pct": 0.07
+    }
+  },
+  "Urine Test": {
+    "metro": {
+      "procedure": [
+        800,
+        2000
+      ],
+      "doctor_fee": [
+        500,
+        1500
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        500,
+        2000
+      ],
+      "diagnostics_post": [
+        0,
+        500
+      ],
+      "medicines": [
+        300,
+        1500
+      ],
+      "contingency_pct": 0.08
+    },
+    "tier2": {
+      "procedure": [
+        500,
+        1500
+      ],
+      "doctor_fee": [
+        300,
+        1000
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        300,
+        1200
+      ],
+      "diagnostics_post": [
+        0,
+        300
+      ],
+      "medicines": [
+        200,
+        900
+      ],
+      "contingency_pct": 0.07
+    },
+    "tier3": {
+      "procedure": [
+        300,
+        1000
+      ],
+      "doctor_fee": [
+        200,
+        700
+      ],
+      "stay_per_day": [
+        0,
+        0
+      ],
+      "avg_stay_days": [
+        0,
+        0
+      ],
+      "diagnostics_pre": [
+        200,
+        800
+      ],
+      "diagnostics_post": [
+        0,
+        200
+      ],
+      "medicines": [
+        100,
+        600
+      ],
+      "contingency_pct": 0.06
+    }
+  }
+}

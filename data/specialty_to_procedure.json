@@ -1,0 +1,52 @@
+{
+  "Cardiologist": {
+    "procedures": ["Angioplasty", "Echocardiogram", "Stress Test", "Angiography"],
+    "icd_codes": ["I25", "I21", "I20"],
+    "urgency_level": "high"
+  },
+  "Orthopedist": {
+    "procedures": ["Knee Replacement", "Hip Replacement", "Arthroscopy", "Physiotherapy"],
+    "icd_codes": ["M17", "M16", "M23"],
+    "urgency_level": "medium"
+  },
+  "Gastroenterologist": {
+    "procedures": ["Colonoscopy", "Endoscopy", "ERCP", "Liver Biopsy"],
+    "icd_codes": ["K57", "K25", "K80"],
+    "urgency_level": "medium"
+  },
+  "Neurologist": {
+    "procedures": ["MRI Brain", "EEG", "Nerve Conduction Study", "Lumbar Puncture"],
+    "icd_codes": ["G43", "G40", "G35"],
+    "urgency_level": "high"
+  },
+  "Oncologist": {
+    "procedures": ["Chemotherapy", "Radiation Therapy", "Biopsy", "PET Scan"],
+    "icd_codes": ["C50", "C34", "C18"],
+    "urgency_level": "high"
+  },
+  "Pulmonologist": {
+    "procedures": ["Bronchoscopy", "Pulmonary Function Test", "CT Chest", "Sleep Study"],
+    "icd_codes": ["J45", "J44", "J18"],
+    "urgency_level": "medium"
+  },
+  "Nephrologist": {
+    "procedures": ["Dialysis", "Kidney Biopsy", "Renal Ultrasound", "Transplant Eval"],
+    "icd_codes": ["N18", "N03", "N04"],
+    "urgency_level": "high"
+  },
+  "Dermatologist": {
+    "procedures": ["Skin Biopsy", "Patch Testing", "Laser Treatment", "Mohs Surgery"],
+    "icd_codes": ["L40", "L20", "C44"],
+    "urgency_level": "low"
+  },
+  "Psychiatrist": {
+    "procedures": ["Psychiatric Evaluation", "ECT", "TMS Therapy", "Medication Review"],
+    "icd_codes": ["F32", "F20", "F31"],
+    "urgency_level": "medium"
+  },
+  "General Physician": {
+    "procedures": ["Consultation", "Blood Panel", "Chest X-Ray", "Urine Test"],
+    "icd_codes": ["Z00", "Z01"],
+    "urgency_level": "low"
+  }
+}

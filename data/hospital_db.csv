@@ -1,0 +1,151 @@
+hospital_id,hospital_name,city,city_tier,state,specialties,nabh_accredited,rating,review_count,cost_tier,lat,lon,established_year,bed_count,description
+H001,Apollo Hospitals Hyderabad,Hyderabad,metro,Telangana,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.6,2340,premium,17.4239,78.4738,1996,350,Full-service tertiary care hospital
+H002,Yashoda Hospitals Hyderabad,Hyderabad,metro,Telangana,"Cardiologist,Gastroenterologist,Nephrologist",True,4.4,1890,premium,17.4401,78.4994,2001,280,Cardiac and nephrology center of excellence
+H003,Care Hospitals Hyderabad,Hyderabad,metro,Telangana,"Cardiologist,Pulmonologist,Neurologist",True,4.3,1540,mid,17.4063,78.4582,2000,200,Multi-specialty chain
+H004,Medicover Hospitals Hyderabad,Hyderabad,metro,Telangana,"Oncologist,Orthopedist,General Physician",True,4.2,1200,mid,17.4319,78.4527,2015,180,European hospital group India
+H005,Citizens Hospital Hyderabad,Hyderabad,metro,Telangana,"General Physician,Dermatologist,Psychiatrist",False,4.0,890,budget,17.3850,78.4867,2005,120,Community care hospital
+H006,Sunrise Specialty Hyderabad,Hyderabad,metro,Telangana,"Cardiologist,Orthopedist,Pulmonologist",True,4.5,1620,premium,17.419,78.481,2008,260,Advanced specialty center
+H007,MetroLife Clinic Hyderabad,Hyderabad,metro,Telangana,"General Physician,Gastroenterologist,Dermatologist",False,4.1,760,budget,17.392,78.472,2012,110,Affordable urban care
+H008,Rainbow Health Hyderabad,Hyderabad,metro,Telangana,"Neurologist,Psychiatrist,General Physician",True,4.2,980,mid,17.438,78.469,2010,170,Integrated neuro and mental health
+H009,Fortune Med Hyderabad,Hyderabad,metro,Telangana,"Oncologist,Nephrologist,Cardiologist",True,4.4,1330,premium,17.446,78.488,2004,300,Comprehensive quaternary care
+H010,CityCare Hospital Hyderabad,Hyderabad,metro,Telangana,"Orthopedist,Pulmonologist,General Physician",False,3.9,650,budget,17.401,78.495,2016,95,Neighborhood multispecialty hospital
+H011,Apollo Hospitals Mumbai,Mumbai,metro,Maharashtra,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.7,2890,premium,19.082,72.878,1994,420,Flagship tertiary care center
+H012,Fortis Mumbai Central,Mumbai,metro,Maharashtra,"Cardiologist,Gastroenterologist,Nephrologist",True,4.5,2110,premium,19.071,72.889,2002,310,Cardio gastro advanced center
+H013,Nanavati Lifecare,Mumbai,metro,Maharashtra,"Cardiologist,Pulmonologist,Neurologist",True,4.4,1860,mid,19.064,72.845,2000,240,Trusted multi-specialty provider
+H014,GlobalCare Andheri,Mumbai,metro,Maharashtra,"Oncologist,Orthopedist,General Physician",True,4.3,1430,mid,19.116,72.854,2011,210,Oncology and orthopedic excellence
+H015,People's Hospital Mumbai,Mumbai,metro,Maharashtra,"General Physician,Dermatologist,Psychiatrist",False,4.0,910,budget,19.048,72.901,2009,130,Accessible community healthcare
+H016,Seaside Heart Institute,Mumbai,metro,Maharashtra,"Cardiologist,Nephrologist,Pulmonologist",True,4.6,2010,premium,19.092,72.861,1998,330,Heart and critical care specialist
+H017,UrbanMed Bandra,Mumbai,metro,Maharashtra,"General Physician,Gastroenterologist,Dermatologist",False,4.1,820,budget,19.061,72.832,2014,105,Family focused care center
+H018,NeuroMind Mumbai,Mumbai,metro,Maharashtra,"Neurologist,Psychiatrist,General Physician",True,4.2,1090,mid,19.087,72.842,2013,185,Brain and behavior institute
+H019,OncoPlus Mumbai,Mumbai,metro,Maharashtra,"Oncologist,Cardiologist,Nephrologist",True,4.5,1670,premium,19.101,72.874,2006,295,Cancer and chronic disease hub
+H020,Suburban Care Mumbai,Mumbai,metro,Maharashtra,"Orthopedist,Pulmonologist,General Physician",False,3.9,700,budget,19.032,72.913,2017,98,Suburban affordable care
+H021,Apollo Hospitals Delhi,Delhi,metro,Delhi,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.6,2750,premium,28.614,77.219,1995,390,National referral center
+H022,Max Super Specialty Delhi,Delhi,metro,Delhi,"Cardiologist,Gastroenterologist,Nephrologist",True,4.5,2230,premium,28.626,77.208,2001,320,Advanced tertiary services
+H023,BLK Care Delhi,Delhi,metro,Delhi,"Cardiologist,Pulmonologist,Neurologist",True,4.3,1710,mid,28.643,77.195,1999,230,Comprehensive multispecialty hospital
+H024,Metro Ortho Delhi,Delhi,metro,Delhi,"Oncologist,Orthopedist,General Physician",True,4.2,1320,mid,28.598,77.223,2012,190,Orthopedic and oncology care
+H025,Jan Seva Delhi,Delhi,metro,Delhi,"General Physician,Dermatologist,Psychiatrist",False,4.0,880,budget,28.579,77.201,2007,125,Public friendly urban hospital
+H026,Capital Heart Delhi,Delhi,metro,Delhi,"Cardiologist,Nephrologist,Pulmonologist",True,4.5,1900,premium,28.632,77.241,2003,305,Cardiorenal center
+H027,Lotus Clinic Delhi,Delhi,metro,Delhi,"General Physician,Gastroenterologist,Dermatologist",False,4.1,810,budget,28.603,77.253,2015,112,Affordable ambulatory and inpatient care
+H028,MindSpace Delhi,Delhi,metro,Delhi,"Neurologist,Psychiatrist,General Physician",True,4.2,1010,mid,28.621,77.182,2010,176,Neuro psychiatry integrated unit
+H029,OncoLife Delhi,Delhi,metro,Delhi,"Oncologist,Cardiologist,Nephrologist",True,4.4,1600,premium,28.656,77.214,2008,280,Cancer and complex medicine hospital
+H030,NCR Community Delhi,Delhi,metro,Delhi,"Orthopedist,Pulmonologist,General Physician",False,3.9,690,budget,28.566,77.237,2018,102,Community based multispecialty care
+H031,Manipal Bangalore,Bangalore,metro,Karnataka,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.6,2510,premium,12.976,77.6,1998,360,Technology-enabled tertiary care
+H032,Aster Bangalore,Bangalore,metro,Karnataka,"Cardiologist,Gastroenterologist,Nephrologist",True,4.4,1980,premium,12.964,77.588,2004,300,Advanced GI and renal sciences
+H033,Sakra Bangalore,Bangalore,metro,Karnataka,"Cardiologist,Pulmonologist,Neurologist",True,4.3,1650,mid,12.949,77.621,2010,220,Global standards multispecialty
+H034,OrthoPlus Bangalore,Bangalore,metro,Karnataka,"Oncologist,Orthopedist,General Physician",True,4.2,1280,mid,12.992,77.573,2013,185,Orthopedics and oncology
+H035,People First Bangalore,Bangalore,metro,Karnataka,"General Physician,Dermatologist,Psychiatrist",False,4.0,840,budget,12.958,77.566,2008,118,Affordable neighborhood hospital
+H036,Cardia Bangalore,Bangalore,metro,Karnataka,"Cardiologist,Nephrologist,Pulmonologist",True,4.5,1810,premium,12.987,77.611,2005,290,High-volume cardiac institute
+H037,MetroCare Bangalore,Bangalore,metro,Karnataka,"General Physician,Gastroenterologist,Dermatologist",False,4.1,790,budget,12.941,77.605,2016,108,Everyday family care
+H038,NeuroMind Bangalore,Bangalore,metro,Karnataka,"Neurologist,Psychiatrist,General Physician",True,4.2,960,mid,12.969,77.631,2011,172,Neuro rehabilitation programs
+H039,OncoNova Bangalore,Bangalore,metro,Karnataka,"Oncologist,Cardiologist,Nephrologist",True,4.4,1520,premium,12.953,77.581,2007,275,Cancer and chronic disease center
+H040,SouthCare Bangalore,Bangalore,metro,Karnataka,"Orthopedist,Pulmonologist,General Physician",False,3.9,620,budget,12.934,77.594,2019,96,High-value care provider
+H041,Ruby Hall Pune,Pune,metro,Maharashtra,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.5,1880,premium,18.528,73.853,1999,320,Legacy tertiary care hospital
+H042,Deenanath Pune,Pune,metro,Maharashtra,"Cardiologist,Gastroenterologist,Nephrologist",True,4.4,1620,premium,18.516,73.841,2002,260,Comprehensive super-specialty services
+H043,Sahyadri Pune,Pune,metro,Maharashtra,"Cardiologist,Pulmonologist,Neurologist",True,4.3,1480,mid,18.502,73.872,2006,210,Quality-focused multispecialty
+H044,OrthoCare Pune,Pune,metro,Maharashtra,"Oncologist,Orthopedist,General Physician",True,4.2,1160,mid,18.548,73.866,2012,180,Orthopedic leadership
+H045,Jan Kalyan Pune,Pune,metro,Maharashtra,"General Physician,Dermatologist,Psychiatrist",False,4.0,760,budget,18.49,73.884,2009,115,Community centric care
+H046,HeartLine Pune,Pune,metro,Maharashtra,"Cardiologist,Nephrologist,Pulmonologist",True,4.4,1570,premium,18.534,73.826,2004,255,Cardiac and renal institute
+H047,FamilyHealth Pune,Pune,metro,Maharashtra,"General Physician,Gastroenterologist,Dermatologist",False,4.1,720,budget,18.509,73.897,2015,104,Cost-effective family hospital
+H048,NeuroWell Pune,Pune,metro,Maharashtra,"Neurologist,Psychiatrist,General Physician",True,4.2,890,mid,18.541,73.878,2013,168,Neuro mental wellness center
+H049,CancerBridge Pune,Pune,metro,Maharashtra,"Oncologist,Cardiologist,Nephrologist",True,4.3,1340,premium,18.521,73.812,2008,240,Oncology with multidisciplinary support
+H050,SuburbCare Pune,Pune,metro,Maharashtra,"Orthopedist,Pulmonologist,General Physician",False,3.9,580,budget,18.476,73.861,2018,92,Affordable suburban hospital
+H051,KIMS Chennai,Chennai,metro,Tamil Nadu,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.6,2080,premium,13.087,80.274,1997,340,Comprehensive specialty care
+H052,Apollo Chennai,Chennai,metro,Tamil Nadu,"Cardiologist,Gastroenterologist,Nephrologist",True,4.5,2240,premium,13.072,80.257,1992,410,Leading tertiary referral center
+H053,SRM Chennai,Chennai,metro,Tamil Nadu,"Cardiologist,Pulmonologist,Neurologist",True,4.3,1490,mid,13.101,80.286,2005,220,Respiratory and neuro services
+H054,OrthoPrime Chennai,Chennai,metro,Tamil Nadu,"Oncologist,Orthopedist,General Physician",True,4.2,1180,mid,13.061,80.248,2011,185,Orthopedic surgery and cancer care
+H055,PeopleCare Chennai,Chennai,metro,Tamil Nadu,"General Physician,Dermatologist,Psychiatrist",False,4.0,770,budget,13.044,80.296,2007,120,Community centered care
+H056,Marina Heart Chennai,Chennai,metro,Tamil Nadu,"Cardiologist,Nephrologist,Pulmonologist",True,4.5,1720,premium,13.114,80.273,2003,275,Cardiopulmonary excellence
+H057,South Family Chennai,Chennai,metro,Tamil Nadu,"General Physician,Gastroenterologist,Dermatologist",False,4.1,710,budget,13.029,80.267,2014,109,Family medicine and diagnostics
+H058,NeuroLife Chennai,Chennai,metro,Tamil Nadu,"Neurologist,Psychiatrist,General Physician",True,4.2,920,mid,13.093,80.305,2010,169,Neurology and psychiatry programs
+H059,OncoReach Chennai,Chennai,metro,Tamil Nadu,"Oncologist,Cardiologist,Nephrologist",True,4.4,1410,premium,13.078,80.239,2006,265,Oncology-focused tertiary care
+H060,CityTrust Chennai,Chennai,metro,Tamil Nadu,"Orthopedist,Pulmonologist,General Physician",False,3.9,610,budget,13.021,80.281,2017,94,High-value treatment center
+H061,AMRI Kolkata,Kolkata,metro,West Bengal,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.5,1950,premium,22.579,88.369,1998,330,Large multispecialty institution
+H062,Fortis Kolkata,Kolkata,metro,West Bengal,"Cardiologist,Gastroenterologist,Nephrologist",True,4.4,1760,premium,22.553,88.401,2003,285,Comprehensive specialty care
+H063,Peerless Kolkata,Kolkata,metro,West Bengal,"Cardiologist,Pulmonologist,Neurologist",True,4.3,1470,mid,22.562,88.389,2001,215,Balanced tertiary services
+H064,OrthoAxis Kolkata,Kolkata,metro,West Bengal,"Oncologist,Orthopedist,General Physician",True,4.2,1150,mid,22.591,88.346,2012,180,Orthopedic and oncology center
+H065,Swasthya Kolkata,Kolkata,metro,West Bengal,"General Physician,Dermatologist,Psychiatrist",False,4.0,760,budget,22.538,88.376,2008,121,Affordable inner-city hospital
+H066,Hooghly Heart Kolkata,Kolkata,metro,West Bengal,"Cardiologist,Nephrologist,Pulmonologist",True,4.4,1590,premium,22.607,88.355,2004,268,Cardiac and renal super-specialty
+H067,CareHub Kolkata,Kolkata,metro,West Bengal,"General Physician,Gastroenterologist,Dermatologist",False,4.1,700,budget,22.548,88.417,2015,106,Day-to-day family healthcare
+H068,NeuroPulse Kolkata,Kolkata,metro,West Bengal,"Neurologist,Psychiatrist,General Physician",True,4.2,930,mid,22.571,88.337,2011,170,Neuro and mental health services
+H069,OncoEast Kolkata,Kolkata,metro,West Bengal,"Oncologist,Cardiologist,Nephrologist",True,4.3,1380,premium,22.526,88.364,2007,250,Regional cancer treatment hub
+H070,CityLine Kolkata,Kolkata,metro,West Bengal,"Orthopedist,Pulmonologist,General Physician",False,3.9,590,budget,22.589,88.425,2018,97,Cost-sensitive healthcare provider
+H071,Orange City Care,Nagpur,tier2,Maharashtra,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.4,1320,premium,21.151,79.081,2002,280,Tier2 tertiary care hospital
+H072,Vidarbha Super Specialty,Nagpur,tier2,Maharashtra,"Cardiologist,Gastroenterologist,Nephrologist",True,4.3,1180,mid,21.137,79.099,2006,225,Cardio and GI center
+H073,Nagpur Central,Nagpur,tier2,Maharashtra,"Cardiologist,Pulmonologist,Neurologist",True,4.2,960,mid,21.163,79.071,2008,190,Trusted multispecialty chain
+H074,OrthoOnco Nagpur,Nagpur,tier2,Maharashtra,"Oncologist,Orthopedist,General Physician",True,4.1,830,mid,21.129,79.113,2013,165,Ortho oncology service line
+H075,Janseva Nagpur,Nagpur,tier2,Maharashtra,"General Physician,Dermatologist,Psychiatrist",False,3.9,640,budget,21.148,79.121,2010,112,Affordable patient-first hospital
+H076,HeartCare Nagpur,Nagpur,tier2,Maharashtra,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,1090,premium,21.177,79.086,2005,235,Cardiopulmonary advanced unit
+H077,Family Plus Nagpur,Nagpur,tier2,Maharashtra,"General Physician,Gastroenterologist,Dermatologist",False,4.0,590,budget,21.121,79.073,2014,101,Neighborhood family hospital
+H078,NeuroMind Nagpur,Nagpur,tier2,Maharashtra,"Neurologist,Psychiatrist,General Physician",True,4.1,760,mid,21.134,79.054,2012,150,Neuro and psychiatry care
+H079,OncoCare Nagpur,Nagpur,tier2,Maharashtra,"Oncologist,Cardiologist,Nephrologist",True,4.2,950,premium,21.167,79.117,2009,210,Cancer treatment with ICU backup
+H080,CityBudget Nagpur,Nagpur,tier2,Maharashtra,"Orthopedist,Pulmonologist,General Physician",False,3.8,510,budget,21.112,79.092,2018,88,Low-cost multispecialty option
+H081,Shalby Ahmedabad,Ahmedabad,tier2,Gujarat,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.5,1490,premium,23.03,72.58,1999,300,High-end tertiary care in Gujarat
+H082,CIMS Ahmedabad,Ahmedabad,tier2,Gujarat,"Cardiologist,Gastroenterologist,Nephrologist",True,4.4,1360,premium,23.044,72.565,2004,250,Cardiac and GI super-specialty
+H083,Sterling Ahmedabad,Ahmedabad,tier2,Gujarat,"Cardiologist,Pulmonologist,Neurologist",True,4.2,990,mid,23.017,72.547,2007,205,Multi-specialty tertiary setup
+H084,OrthoPoint Ahmedabad,Ahmedabad,tier2,Gujarat,"Oncologist,Orthopedist,General Physician",True,4.1,850,mid,23.008,72.597,2011,170,Ortho and oncology procedures
+H085,Janta Ahmedabad,Ahmedabad,tier2,Gujarat,"General Physician,Dermatologist,Psychiatrist",False,3.9,670,budget,22.995,72.56,2009,116,Accessible healthcare network
+H086,Sabarmati Heart,Ahmedabad,tier2,Gujarat,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,1160,premium,23.053,72.589,2003,240,Cardio renal critical care
+H087,CityFamily Ahmedabad,Ahmedabad,tier2,Gujarat,"General Physician,Gastroenterologist,Dermatologist",False,4.0,610,budget,23.012,72.611,2015,103,Value-focused family hospital
+H088,NeuroLine Ahmedabad,Ahmedabad,tier2,Gujarat,"Neurologist,Psychiatrist,General Physician",True,4.1,790,mid,23.026,72.536,2012,152,Neuro diagnostics and counseling
+H089,OncoWest Ahmedabad,Ahmedabad,tier2,Gujarat,"Oncologist,Cardiologist,Nephrologist",True,4.2,980,premium,22.986,72.584,2008,220,Comprehensive cancer services
+H090,BudgetCare Ahmedabad,Ahmedabad,tier2,Gujarat,"Orthopedist,Pulmonologist,General Physician",False,3.8,520,budget,23.001,72.525,2019,90,Affordable tier2 city hospital
+H091,Jaipur Golden,Jaipur,tier2,Rajasthan,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.4,1390,premium,26.917,75.796,2001,290,High-complexity care center
+H092,Narayan Jaipur,Jaipur,tier2,Rajasthan,"Cardiologist,Gastroenterologist,Nephrologist",True,4.3,1210,mid,26.894,75.774,2005,235,Comprehensive specialty care
+H093,RajCare Jaipur,Jaipur,tier2,Rajasthan,"Cardiologist,Pulmonologist,Neurologist",True,4.2,980,mid,26.928,75.806,2007,198,Trusted multispecialty unit
+H094,OrthoOnco Jaipur,Jaipur,tier2,Rajasthan,"Oncologist,Orthopedist,General Physician",True,4.1,840,mid,26.903,75.827,2013,168,Surgical and cancer services
+H095,JanHit Jaipur,Jaipur,tier2,Rajasthan,"General Physician,Dermatologist,Psychiatrist",False,3.9,640,budget,26.881,75.79,2010,114,Community hospital
+H096,Amber Heart Jaipur,Jaipur,tier2,Rajasthan,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,1110,premium,26.936,75.762,2004,238,Cardio pulmonary center
+H097,Family Care Jaipur,Jaipur,tier2,Rajasthan,"General Physician,Gastroenterologist,Dermatologist",False,4.0,600,budget,26.867,75.811,2015,102,Affordable family services
+H098,MindNeuro Jaipur,Jaipur,tier2,Rajasthan,"Neurologist,Psychiatrist,General Physician",True,4.1,760,mid,26.947,75.783,2011,151,Neuro-psych integrated care
+H099,OncoRaj Jaipur,Jaipur,tier2,Rajasthan,"Oncologist,Cardiologist,Nephrologist",True,4.2,920,premium,26.875,75.754,2009,214,Cancer and chronic disease center
+H100,CityBudget Jaipur,Jaipur,tier2,Rajasthan,"Orthopedist,Pulmonologist,General Physician",False,3.8,500,budget,26.859,75.835,2018,89,Low-cost city provider
+H101,SGPGI Lucknow,Lucknow,tier2,Uttar Pradesh,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.5,1580,premium,26.855,80.952,1996,320,Premier tertiary institution
+H102,Medanta Lucknow,Lucknow,tier2,Uttar Pradesh,"Cardiologist,Gastroenterologist,Nephrologist",True,4.4,1410,premium,26.87,80.938,2007,260,Specialty hospital with modern ICU
+H103,Gomti Care Lucknow,Lucknow,tier2,Uttar Pradesh,"Cardiologist,Pulmonologist,Neurologist",True,4.2,1030,mid,26.838,80.931,2008,205,Trusted multispecialty setup
+H104,OrthoLucknow,Lucknow,tier2,Uttar Pradesh,"Oncologist,Orthopedist,General Physician",True,4.1,860,mid,26.829,80.969,2012,172,Orthopedic and oncology surgeries
+H105,Arogya Lucknow,Lucknow,tier2,Uttar Pradesh,"General Physician,Dermatologist,Psychiatrist",False,3.9,650,budget,26.818,80.944,2010,118,Affordable urban care
+H106,HeartPlus Lucknow,Lucknow,tier2,Uttar Pradesh,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,1170,premium,26.882,80.961,2003,242,Cardiovascular sciences hospital
+H107,Family Line Lucknow,Lucknow,tier2,Uttar Pradesh,"General Physician,Gastroenterologist,Dermatologist",False,4.0,610,budget,26.807,80.917,2014,104,Family care and day procedures
+H108,NeuroLife Lucknow,Lucknow,tier2,Uttar Pradesh,"Neurologist,Psychiatrist,General Physician",True,4.1,800,mid,26.846,80.989,2011,154,Neuro and mental health practice
+H109,OncoUP Lucknow,Lucknow,tier2,Uttar Pradesh,"Oncologist,Cardiologist,Nephrologist",True,4.2,980,premium,26.793,80.956,2009,220,Cancer care with multidisciplinary board
+H110,BudgetCare Lucknow,Lucknow,tier2,Uttar Pradesh,"Orthopedist,Pulmonologist,General Physician",False,3.8,520,budget,26.776,80.927,2018,91,Affordable treatment center
+H111,Choithram Indore,Indore,tier2,Madhya Pradesh,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.4,1260,premium,22.724,75.864,2000,285,Large tertiary hospital in MP
+H112,Bombay Hospital Indore,Indore,tier2,Madhya Pradesh,"Cardiologist,Gastroenterologist,Nephrologist",True,4.3,1120,mid,22.701,75.882,2006,230,Trusted specialty services
+H113,Indore MetroCare,Indore,tier2,Madhya Pradesh,"Cardiologist,Pulmonologist,Neurologist",True,4.2,940,mid,22.738,75.845,2007,195,Comprehensive care network
+H114,OrthoOnco Indore,Indore,tier2,Madhya Pradesh,"Oncologist,Orthopedist,General Physician",True,4.1,820,mid,22.749,75.874,2012,166,Surgery and oncology focused
+H115,JanArogya Indore,Indore,tier2,Madhya Pradesh,"General Physician,Dermatologist,Psychiatrist",False,3.9,620,budget,22.689,75.833,2010,113,People-first affordable care
+H116,HeartLine Indore,Indore,tier2,Madhya Pradesh,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,1050,premium,22.763,75.857,2004,236,Cardiopulmonary critical center
+H117,FamilyPlus Indore,Indore,tier2,Madhya Pradesh,"General Physician,Gastroenterologist,Dermatologist",False,4.0,580,budget,22.678,75.892,2015,101,Family medicine hospital
+H118,MindNeuro Indore,Indore,tier2,Madhya Pradesh,"Neurologist,Psychiatrist,General Physician",True,4.1,740,mid,22.711,75.812,2011,150,Neurology and psychiatry care
+H119,OncoMP Indore,Indore,tier2,Madhya Pradesh,"Oncologist,Cardiologist,Nephrologist",True,4.2,910,premium,22.752,75.901,2008,214,Regional cancer and chronic care
+H120,CityBudget Indore,Indore,tier2,Madhya Pradesh,"Orthopedist,Pulmonologist,General Physician",False,3.8,490,budget,22.665,75.846,2019,87,Budget multispecialty hospital
+H121,Hamidia Bhopal,Bhopal,tier2,Madhya Pradesh,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.4,1210,premium,23.266,77.417,1998,280,Central MP referral hospital
+H122,Bansal Bhopal,Bhopal,tier2,Madhya Pradesh,"Cardiologist,Gastroenterologist,Nephrologist",True,4.3,1080,mid,23.247,77.427,2005,226,Specialty and critical care services
+H123,Bhopal Central,Bhopal,tier2,Madhya Pradesh,"Cardiologist,Pulmonologist,Neurologist",True,4.2,910,mid,23.278,77.402,2007,193,Reliable tertiary-care provider
+H124,OrthoCare Bhopal,Bhopal,tier2,Madhya Pradesh,"Oncologist,Orthopedist,General Physician",True,4.1,790,mid,23.239,77.436,2012,165,Ortho and oncology procedures
+H125,Arogya Bhopal,Bhopal,tier2,Madhya Pradesh,"General Physician,Dermatologist,Psychiatrist",False,3.9,600,budget,23.225,77.398,2010,111,Community and family-centered care
+H126,HeartCare Bhopal,Bhopal,tier2,Madhya Pradesh,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,1010,premium,23.292,77.421,2003,232,Cardio-renal institute
+H127,FamilyCare Bhopal,Bhopal,tier2,Madhya Pradesh,"General Physician,Gastroenterologist,Dermatologist",False,4.0,570,budget,23.213,77.443,2014,100,Low-cost quality family hospital
+H128,NeuroMind Bhopal,Bhopal,tier2,Madhya Pradesh,"Neurologist,Psychiatrist,General Physician",True,4.1,720,mid,23.254,77.385,2011,149,Neuro and psychiatry services
+H129,OncoBhopal,Bhopal,tier2,Madhya Pradesh,"Oncologist,Cardiologist,Nephrologist",True,4.2,890,premium,23.303,77.397,2008,210,Oncology and chronic disease center
+H130,BudgetLine Bhopal,Bhopal,tier2,Madhya Pradesh,"Orthopedist,Pulmonologist,General Physician",False,3.8,480,budget,23.206,77.412,2019,86,Affordable neighborhood care
+H131,SMIMER Surat,Surat,tier2,Gujarat,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.3,1170,premium,21.176,72.839,2001,275,Surat tertiary treatment hub
+H132,Sunshine Surat,Surat,tier2,Gujarat,"Cardiologist,Gastroenterologist,Nephrologist",True,4.2,980,mid,21.159,72.824,2006,220,GI and renal specialty center
+H133,Surat MetroCare,Surat,tier2,Gujarat,"Cardiologist,Pulmonologist,Neurologist",True,4.1,860,mid,21.189,72.815,2008,188,Comprehensive city hospital
+H134,OrthoOnco Surat,Surat,tier2,Gujarat,"Oncologist,Orthopedist,General Physician",True,4.0,740,mid,21.144,72.852,2013,160,Surgical oncology services
+H135,AamCare Surat,Surat,tier2,Gujarat,"General Physician,Dermatologist,Psychiatrist",False,3.8,560,budget,21.133,72.809,2010,108,Affordable family healthcare
+H136,Tapi Heart Surat,Surat,tier2,Gujarat,"Cardiologist,Nephrologist,Pulmonologist",True,4.2,940,premium,21.198,72.843,2004,228,Cardiac and nephrology focus
+H137,FamilyHub Surat,Surat,tier2,Gujarat,"General Physician,Gastroenterologist,Dermatologist",False,3.9,530,budget,21.126,72.868,2015,99,Primary and secondary care hub
+H138,NeuroMind Surat,Surat,tier2,Gujarat,"Neurologist,Psychiatrist,General Physician",True,4.0,680,mid,21.168,72.791,2011,145,Neuropsychiatry and diagnostics
+H139,OncoWest Surat,Surat,tier2,Gujarat,"Oncologist,Cardiologist,Nephrologist",True,4.1,840,premium,21.206,72.818,2009,205,Cancer and chronic disease management
+H140,BudgetCare Surat,Surat,tier2,Gujarat,"Orthopedist,Pulmonologist,General Physician",False,3.7,450,budget,21.118,72.839,2018,84,Value hospital for planned procedures
+H141,Ganga Coimbatore,Coimbatore,tier2,Tamil Nadu,"Cardiologist,Oncologist,Neurologist,Orthopedist",True,4.4,1290,premium,11.021,76.962,1999,290,Leading tertiary center in Coimbatore
+H142,PSG Coimbatore,Coimbatore,tier2,Tamil Nadu,"Cardiologist,Gastroenterologist,Nephrologist",True,4.3,1140,mid,11.008,76.948,2004,232,Strong medical and surgical services
+H143,Kovai Med Coimbatore,Coimbatore,tier2,Tamil Nadu,"Cardiologist,Pulmonologist,Neurologist",True,4.2,930,mid,11.033,76.973,2007,196,Multispecialty care network
+H144,OrthoOnco Coimbatore,Coimbatore,tier2,Tamil Nadu,"Oncologist,Orthopedist,General Physician",True,4.1,810,mid,10.996,76.936,2012,167,Ortho oncology surgery unit
+H145,JanArogya Coimbatore,Coimbatore,tier2,Tamil Nadu,"General Physician,Dermatologist,Psychiatrist",False,3.9,610,budget,10.987,76.976,2010,112,Affordable patient-centric hospital
+H146,HeartLine Coimbatore,Coimbatore,tier2,Tamil Nadu,"Cardiologist,Nephrologist,Pulmonologist",True,4.3,990,premium,11.045,76.954,2003,236,Cardio renal specialty center
+H147,FamilyCare Coimbatore,Coimbatore,tier2,Tamil Nadu,"General Physician,Gastroenterologist,Dermatologist",False,4.0,560,budget,10.974,76.947,2014,101,Primary and family health
+H148,NeuroMind Coimbatore,Coimbatore,tier2,Tamil Nadu,"Neurologist,Psychiatrist,General Physician",True,4.1,730,mid,11.016,76.921,2011,150,Neurology and behavioral medicine
+H149,OncoSouth Coimbatore,Coimbatore,tier2,Tamil Nadu,"Oncologist,Cardiologist,Nephrologist",True,4.2,900,premium,11.052,76.979,2008,212,Cancer and chronic illness center
+H150,BudgetLine Coimbatore,Coimbatore,tier2,Tamil Nadu,"Orthopedist,Pulmonologist,General Physician",False,3.8,480,budget,10.968,76.964,2019,88,Budget-focused multispecialty hospital

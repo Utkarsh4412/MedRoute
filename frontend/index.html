@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedRoute Navigator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fb; color: #1f2937; }
+    .container { max-width: 1100px; margin: 24px auto; padding: 16px; }
+    .card { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+    .green { background: #dcfce7; color: #166534; } .yellow { background: #fef9c3; color: #854d0e; } .red { background: #fee2e2; color: #991b1b; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; }
+    input, select, button, textarea { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #d1d5db; box-sizing: border-box; }
+    button { background: #2563eb; color: #fff; border: none; cursor: pointer; font-weight: 600; }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+    details summary { cursor: pointer; font-weight: 600; }
+    .small { font-size: 12px; color: #6b7280; }
+    ul { padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>MedRoute Healthcare Navigator</h2>
+      <div class="grid">
+        <div><label>Symptoms</label><textarea id="symptoms" rows="3" placeholder="Describe symptoms in detail"></textarea></div>
+        <div><label>City</label><input id="city" placeholder="Hyderabad" /></div>
+        <div><label>Age</label><input id="age" type="number" value="35" /></div>
+        <div><label>Name</label><input id="name" value="anonymous" /></div>
+        <div><label>Comorbidities (comma separated)</label><input id="comorbidities" placeholder="diabetes, hypertension" /></div>
+        <div><label>Budget Preference</label><select id="budget"><option value="">Any</option><option value="budget">budget</option><option value="mid">mid</option><option value="premium">premium</option></select></div>
+      </div>
+      <div style="margin-top:12px;"><button id="submitBtn">Navigate</button></div>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
